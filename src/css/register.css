@@ -1,0 +1,82 @@
+.regisration{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding-top: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.loginHeader{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(62, 24, 24);
+    text-align: center;
+    padding-bottom: 25px;
+  
+}
+
+.registrationForm{
+    background-color: white;
+   border-radius: 60px;
+   padding: 50px 0px 90px 0px;
+   box-shadow: 5px 5px 5px 5px rgb(233, 210, 210);
+   height: 140px;
+   width:  35%;
+   justify-content: center;
+   align-items: center;
+   flex-direction: right;
+   display: center;
+   
+}
+
+.userName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(62, 24, 24);
+    text-align: center;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.submitButton {
+    margin: 10px;
+      appearance: none;
+      background-color: #2ea44f;
+      border: 1px solid rgba(27, 31, 35, .15);
+      border-radius: 5px;
+      box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: center;
+      font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+      padding: 6px 16px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+    
+    .submitButton:hover {
+      background-color: #2c974b;
+      font-size: 16px;
+    }
