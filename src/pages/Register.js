@@ -21,7 +21,7 @@ function Reg() {
 					<label>Dealer Id: </label>
 					<input type="text" placeholder="D12345" />
 					<label>Phone Number: </label>
-					<input type="phone" placeholder="(518) 935-8545" />
+					<input type="tel" placeholder="5189358545" />
 				</div>
 				<div className="button">
 					<button type="submit" className="submitButton">
